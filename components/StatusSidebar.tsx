@@ -9,13 +9,13 @@ interface StatusSidebarProps {
 export const StatusSidebar: React.FC<StatusSidebarProps> = ({ currentEntity }) => {
   
   const entities = [
-    { id: 'goblin', name: 'Emily', desc: 'Cheeky Goblin' },
-    { id: 'wizard', name: 'The Wizard', desc: 'Insane Caster' },
-    { id: 'mercenary', name: 'Gwalchmai', desc: 'Retired Fighter' },
-    { id: 'mage', name: 'Ffion', desc: 'Mage of potions' },
-    { id: 'witch', name: 'Seren', desc: 'Deceptive Witch' },
-    { id: 'troll', name: 'Gruffudd', desc: 'Territorial Troll' },
-    { id: 'meatball', name: 'Meatball man', desc: 'Meatball man' },
+    { id: 'goblin', name: 'Emily', desc: 'the Goblin' },
+    { id: 'wizard', name: 'Marith', desc: 'the Wizard' },
+    { id: 'mercenary', name: 'Gwalchmai', desc: 'the Mercenary' },
+    { id: 'mage', name: 'Ffion', desc: 'the Mage' },
+    { id: 'witch', name: 'Seren', desc: 'the Witch' },
+    { id: 'troll', name: 'Gruffudd', desc: 'the Troll' },
+    { id: 'meatball', name: 'The Meatball Man', desc: 'Meatballs! Chicken meatballs! Bloody nice!' },
   ];
 
   return (
