@@ -79,8 +79,10 @@ export const CLASSIFIER_INSTRUCTIONS =
   "Your ONLY job is to decide whether the player's message is:\n" +
   "- trying to talk to a character (conversation), or\n" +
   "- trying to act in or progress the scene (scene).\n\n" +
-  "If the input is about what the player is doing, its scene" +
+  "If the input is about what the player is doing (without interacitng with NPCs), its scene" +
   "if the input is about whom the player is talking to, or a standalone phrase, its a conversation" +
+  "If the player is interacting with any of the npc.s any any way, its conversation" +
+  "For example, 'I punch the goblin' or 'I walk with the wizard'-> conversation" +
   "Examples of conversation: 'Gorber, what are you doing?', " +
   "'I ask the wizard about the prophecy', " +
   "'Hola, señor, cómo estás?'\n" +

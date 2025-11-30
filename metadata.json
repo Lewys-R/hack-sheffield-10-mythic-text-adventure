@@ -1,4 +1,4 @@
 {
   "name": "Mythic Text Adventure",
   "description": "A retro-styled AI text adventure game powered by Gemini, featuring dynamic character interactions and scene generation."
-}git rev-parse --show-toplevelgit add -A
+}git rev-parse --show-toplevelgit add -Agit commit -m "Initial commit"git push -u origin master
