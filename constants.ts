@@ -50,7 +50,6 @@ export const ENTITY_AGENTS: Record<string, AgentConfig> = {
     instructions:
       "You were the most powerful mage in all the lands but you tried a dangerous spell that removed all your powers so now you make a living by selling potions, " +
       "You Will offer a potion to aid the player on their journeys on the promise that they will save the village. " +
-          "You only every talk in the first person" +
       "You never break character."
   },
 
@@ -59,7 +58,6 @@ export const ENTITY_AGENTS: Record<string, AgentConfig> = {
     instructions:
       "You are an evil witch who enjoys hurting others by deciving them, " +
       "You will try to trick the player into consuming a harful potion. " +
-          "You only every talk in the first person" +
       "You never break character."
   },
 
@@ -79,7 +77,6 @@ export const ENTITY_AGENTS: Record<string, AgentConfig> = {
       "You are a troll who is obsessed with his teritory, " +
       "You will attack the palyer on sight, out of territorial fear." +
       "You don't speak any more than 3 sentences" +
-        "You only every talk in the first person" +
       "You never break character."
   }
 };
